@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Basic Bootstrap Template</title>
+        <link rel="stylesheet" type="text/css" href="payment.css" />
+        <!-- Bootstrap CSS file -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    </head>
+    <body>
+        <div class="container">
+          <header>
+            <nav class="navbar navbar-expand-md navbar-light bg-light">
+                <a href="#" class="navbar-brand">
+                    <img src="img/—Pngtree—wisdom tree knowledge tree bookshelf_4427708.png" height="28" alt="CoolBrand">
+                </a>
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ml-auto">
+                        <a href="#" class="nav-item nav-link">HOME</a>
+                        <a href="#" class="nav-item nav-link">ABOUT</a>
+                        <a href="#" class="nav-item nav-link">SHOP</a>
+                        <a href="#" class="nav-item nav-link">HELP</a> 
+                    </div>
+                </div>
+                <!-- <button type="submit" class="btn btn-secondary"><span class="bi-cart4"></span> Your Cart</button> -->
+                <button type="submit" class="btn btn-secondary"><img src="img/—Pngtree—simple shopping cart trolley icon_4480553.png" width="25px" height="25px"> Your Cart</button> 
+            </nav>
+            
+            <div class="bs-example">
+                <span class="border-left-0">
+                <div class="btn-group d-flex">
+                    <a href="cart.html" type="button" class="btn btn-outline-secondary">Shopping Cart</a>
+                    <a href="shipping.html" type="button" class="btn btn-outline-secondary">Shipping Details</a>
+                    <a href="#" type="button" class="btn btn-outline-secondary active">Payment Options</a>
+                    <!-- <button type="button" class="btn btn-outline-secondary">Shopping Cart</button>
+                    <button type="button" class="btn btn-outline-secondary">Shipping Details</button>
+                    <button type="button" class="btn btn-outline-secondary">Payment Options</button> -->
+                </div>
+                </span>
+            </div>
+          </header>
+
+          <main>
+            <div class="container-fluid">
+                <div class="row">
+                    <aside class="col-lg-8">
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="card-title">Payment method</h4>
+                                <form class="forms-sample">
+                                    <div class="col-md-12 mb-3">
+                                        <div class="p-3 border">
+                                            <div class="custom-control custom-checkbox">
+                                                <input type="checkbox" class="custom-control-input" name="customCheck" id="customCheck1">
+                                                <label class="custom-control-label" for="customCheck1">Credit Card</label>
+                                                <p class="text-muted small" style="font-size: small;">Lorem ipsum dolor sit amet consectetur adipiscing edit, sed do eiusmod tempor</p>
+                                                <div class="form-group row"> 
+                                                    <div class="col-sm-6">
+                                                        <div class="input-group">            
+                                                            <input type="text" class="form-control" placeholder="ID Card">
+                                                            <div class="input-group-append">
+                                                                <span class="input-group-text"><i class="bi-credit-card-2-front"></i></span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-sm-3">
+                                                        <div class="input-group">            
+                                                            <input type="text" class="form-control" placeholder="MM/YY">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-sm-3">
+                                                        <div class="input-group">            
+                                                            <input type="text" class="form-control" placeholder="CV">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group row">
+                                                    <div class="col-sm-12">
+                                                        <div class="input-group">            
+                                                            <input type="text" class="form-control" placeholder="Card Holder Name">              
+                                                            <div class="input-group-append">
+                                                                <span class="input-group-text"><i class="bi-person-badge"></i></span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12 mb-3">
+                                        <div class="p-3 border">
+                                            <div class="custom-control custom-checkbox">
+                                                <input type="checkbox" class="custom-control-input" name="customCheck" id="customCheck2">
+                                                <label class="custom-control-label" for="customCheck2">Paypal</label>
+                                                <p class="text-muted small" style="font-size: small;">Lorem ipsum dolor sit amet consectetur adipiscing edit, sed do eiusmod tempor</p>
+                                            </div>
+                                        </div>
+                                    </div> 
+                                </form>
+                                <a href="#" class="btn btn-out btn-secondary btn-square btn-main" data-abc="true"> PAY NOW </a>
+                                <a href="#" class="btn btn-out btn-secondary btn-square btn-main" data-abc="true"> CANCEL </a>
+                            </div>
+                        </div>
+                    </aside>
+
+                    <aside class="col-lg-4">
+                        <div class="card mb-3">
+                            <div class="card-body">
+                                <table class="table table-borderless">
+                                    <tbody>
+                                        <tr>
+                                            <h4 class="card-title">Summary</h4>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <figure class="itemside align-items-center">
+                                                    <div class="aside"><img src="img/tư duy phản biện.jpg" class="img-sm"></div>
+                                                </figure>
+                                            </td>
+                                            <td>
+                                                <figcaption class="info"> <a href="#" class="title text-dark" data-abc="true" style="font-size: large;">Tư duy phản biện</a>
+                                                    <div class="price-wrap"> <var class="price" style="font-size: large;">$10.00</var></div>
+                                                </figcaption>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <figure class="itemside align-items-center">
+                                                    <div class="aside"><img src="img/taxi.png" class="img-sm"></div>
+                                                </figure>
+                                            </td>
+                                            <td>
+                                                <figcaption class="info"> <a href="#" class="title text-dark" data-abc="true" style="font-size: large;">Le nouveau taxi</a>
+                                                    <div class="price-wrap"> <var class="price" style="font-size: large;">$10.00</var></div>
+                                                </figcaption>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <!-- <div class="card mb-3">
+                            <div class="card-body">
+                                <form>
+                                    <div class="form-group"> <label>Have coupon?</label>
+                                        <div class="input-group"> <input type="text" class="form-control coupon" name="" placeholder="Coupon code"> <span class="input-group-append"> <button class="btn btn-secondary btn-apply coupon">Apply</button> </span> </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div> -->
+                        <div class="card">
+                            <div class="card-body">
+                                <dl class="dlist-align">
+                                    <dt>Subtotal: <span class="text-dark">$90.00</span></dt>
+                                </dl>
+                                <dl class="dlist-align">
+                                    <dt>Shipping: <span class="text-dark">Free</span></dt>
+                                </dl>
+                                <dl class="dlist-align">
+                                    <dt>Taxes: <span class="text-dark">$10.00</dt>
+                                </dl>
+                                <hr>
+                                <dl class="dlist-align">
+                                    <dt>Total: <span class="text-dark">$100.00</dt>
+                                </dl>
+                                <!-- <hr> <a href="shipping.html" class="btn btn-out btn-secondary btn-square btn-main" data-abc="true"> NEXT </a>
+                                <a href="#" class="btn btn-out btn-secondary btn-square btn-main" data-abc="true"> CANCEL </a> -->
+                            </div>
+                        </div>
+                    </aside>
+                </div>
+            </div>
+          </main>
+        </div>
+
+        <!-- JS files: jQuery first, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>
